@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#textarea {
+    font-size: large;
+    letter-spacing: 2px;
+    height: 20px;
+    border: 2px solid gray;
+    padding: 10px, auto;
+    width: 100%;
+    overflow: hidden;
+    resize: vertical;
+    min-height: 30px;
+    line-height: 20px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btn-primary {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 16px 12px;
+    height: 56px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5959;
+}
+
+/* header styles */
+header {
+    background-image: url('../images/donation7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 670px;
+    background-size: cover;
+    /* height: auto;
+    max-width: 100%; */
+}
+
+/* banner styles */
+.banner {
+    color: #FFFFFF;
+    padding-top: 175px;
+    align-items: center;
+    width: 826px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    padding-bottom: 30px;
+}
+
+.banner-distription {
+    font-weight: 400;
+    font-size: 18px;
+    width: 690px;
+    padding-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* donate section */
+.donate {
+    color: #000000;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.section-distription {
+    display: flex;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 270px;
+}
+
+/* Donate fee section */
+.donate-container {
+    color: #707070;
+    display: flex;
+    gap: 22px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.fee-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.fee-primary p:hover {
+    display: flex;
+    width: 135px;
+    height: 123px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #FF5959;
+    background-color: #FFEEEE;
+}
+
+
+.donate-amount {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.text-area textarea {
+    width: 100%;
+    border: 0;
+    margin-bottom: 30px;
+
+}
+
+.btn-amount {
+    margin: 0 auto;
+}
+
+
+/* our donate plan styles */
+.our-donate-plan {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    gap: 24px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.plan1 {
+    background-color: rgba(79, 157, 166, 0.1);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan2 {
+    background-color: rgba(255, 89, 89, 0.1);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan3 {
+    background-color: #FFF4D6;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-description {
+    color: #757575
+}
+
+.donate-entry-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Their lives depend on your donation */
+.section {
+    padding-top: 130px;
+    display: flex;
+    gap: 90px;
+}
+
+.section-description {
+    width: 493px;
+    height: 374px;
+}
+.description{
+    padding-bottom: 20px;
+}
+.section-img img{
+    width: 460px;
+    height: 460px;
+}
+
+/* Get My Updates */
+.get-updates{
+    padding-top: 120px;
+    text-align: center;
+}
+
+/* Subscription */
+.subscription{    
+    display: flex; 
+    margin: 30px 100px;   
+}
+.subscription-bg{
+    padding: 30px 200px;
+    background-color: #FFF4D6;
+}
+.subscription-bg input{
+    width: 330px;
+    height: 48px;
+    font-size: 20px;
+    background-color: #D9D9D9;
+}
+.subscription-bg button{
+    border-radius: none;
+}
+
+/* Footer */
+.footer{
+    background-color: #0B0D17;
+    margin-top: 100px;
+    padding: 100px 0;
+    text-align: center;
+}
+.footer-title{
+    color: #FF5959;
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+}
+footer .description{
+    color: #D9DBE1;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+}
